@@ -1,0 +1,12 @@
+%     60 - 30 - 10
+t:    P    S     A
+primary, secondary and accent color
+
+
+primary color : 1 #FAFAD2 or #e0e0e0
+                2 #001219 or #0b090a
+                3 #48cae4
+
+secondary color : #D00000 or #665b61
+
+accent color : #F77F00 , #F5F3F4
