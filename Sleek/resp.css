@@ -1,0 +1,277 @@
+
+
+@media( max-width : 940px) {
+    .navbaby{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-between; */
+        position: relative;
+        top: 40px;
+        background: #000;
+        color: #fff;
+        width: 13px;
+        height: 8px;
+    }
+    .navbaby .logo{
+        /* background: #fff; */
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .navbaby .nav{
+        text-transform: uppercase;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+    }
+    .content{
+        background: url('img/adam-birkett-_IrFSypwykg-unsplash.jpg') no-repeat center center/cover;
+        width: 106vw;
+        height: 60vh;
+        padding-top: 490px;
+    }
+    .content .cttxt{
+        
+        position: relative;
+        top: 0;
+        transform: translateY(-19.90%);
+        padding-bottom: 1600px;
+        padding-left: 68px;
+        z-index: 100;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        background: rgb(0, 0, 0);
+        
+        /* margin-bottom: 5px; */
+        padding-top: 59px;
+        padding-bottom: 72px;
+        
+    } 
+    #about .right{
+        text-align: center;
+        background: #000000;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        border: #fff 0.3px solid;
+        margin-right: 10px;
+    }
+
+    #burger{
+        display: block;
+    }
+    .v-class{
+        opacity: 0;
+    }
+
+}
+
+
+
+
+
+@media( max-width : 600px) {
+    .navbaby{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-between; */
+        position: relative;
+        top: 40px;
+        background: #000;
+        color: #fff;
+        width: 13px;
+        height: 8px;
+    }
+    .navbaby .logo{
+        /* background: #fff; */
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .navbaby .nav{
+        text-transform: uppercase;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+    }
+    .content{
+        background: url('img/adam-birkett-_IrFSypwykg-unsplash.jpg') no-repeat center center/cover;
+        width: 99vw;
+        height: 60vh;
+        padding-top: 400px;
+    }
+    .content .cttxt{
+        
+        position: relative;
+        top: 0;
+        transform: translateY(-14.90%);
+        padding-bottom: 1600px;
+        padding-left: 68px;
+        z-index: 100;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        background: rgb(0, 0, 0);
+        
+        /* margin-bottom: 5px; */
+        padding-top: 59px;
+        padding-bottom: 72px;
+        
+    } 
+    .products{
+      
+        position: relative;
+        width: 100%;
+        height: 1260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .onepiece{
+        margin-top: 11px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .onepiece .opimg{
+        border-left: 1.2px #000000 solid;
+        position: relative;
+        left: 5px;
+        background: url('img/white/pexels-waldemar-nowak-910616.jpg') no-repeat center center/cover;
+        width: 100%;
+        height: 800px;
+    }
+    .onepiece .opimg::before{
+        content: '';
+        position: absolute;
+        background: rgba(255, 255, 255, 0.65);
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        width: 100%;
+        height: 800px;;
+        left: 5px;
+    }
+    .opimg p{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        top: 90px;
+        left: 2px;
+        font-size: 50px;
+        text-transform: uppercase;
+        height: 5px;
+        width: 18px;
+    }
+    .opimg p::before{
+        content: '';
+        position: absolute;
+        bottom: 60px;
+        left: 2px;
+        background: #000000;
+        height: 8px;
+        width: 17px;
+        animation: ani2 8s infinite 1s ease;
+    }
+    footer{
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 1300px;
+        margin-bottom: 00px;
+    }
+    .upper{
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 1300px;
+    }
+    footer .sec1{
+        position: relative;
+        top: -1px;
+    }
+    footer .sec1 li{
+        list-style: none;
+        margin: 20px;
+        
+    }
+    footer .sec1 li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    footer .sec1 li a:hover{
+        color: rgb(172, 168, 168);
+    }
+    
+    footer .sec2{
+        position: relative;
+        top: 10px;
+    }
+    
+    footer .sec2 li{
+        list-style: none;
+        margin: 20px;
+        /* padding: 30px; */
+    }
+    footer .sec2 li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    footer .sec2 li a:hover{
+        color: rgb(172, 168, 168);
+    }
+    .lulu{
+        position: relative;
+        left: 10px;
+        top: 66px;
+    }
+
+    #burger{
+        display: none;
+        position: absolute;
+        /* right: -1001%; */
+        left: 310px;
+        top: 1px;
+    }
+    .line{
+        width: 33px;
+        height: 4px;
+        background: #ffffff;
+        margin: 4px 4px ;
+    }
+    .lulu h3, h5{
+        color: #fff;
+        position: relative;
+        top: 0px;
+        font-weight: lighter;
+    }
+    
+      
+
+    #burger{
+        display: block;
+    }
+    .v-class{
+        opacity: 0;
+    }
+
+}
